@@ -1,6 +1,5 @@
 const COHORT_NAME = '2301-FTB-ET-WEB-PT'
 const BASE_URL = `https://strangers-things.herokuapp.com/api/${COHORT_NAME}`
-const TOKEN_STRING_HERE = "";
 
 export const registerUser = async (username,password) => {
     try {

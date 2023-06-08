@@ -19,7 +19,7 @@ const Profile = () => {
             <h2>Welcome {profileData?.username && profileData?.username}</h2>
             <h2>Messages</h2>
             <List>
-                {profileData && profileData?.messages.map((message,id)=>{
+                {profileData.messages && profileData?.messages.map((message,id)=>{
                     return (
                         <>
                             <li>{message.content}</li>
